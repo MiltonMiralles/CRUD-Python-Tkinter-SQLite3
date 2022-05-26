@@ -1,4 +1,4 @@
-#Importamos las bibliotecas
+#Se importan las bibliotecas
 from cProfile import label
 from tkinter import *
 from tkinter import messagebox
@@ -60,6 +60,8 @@ def mensaje():
     Tecnología Python Tkinter
     '''
     messagebox.showinfo(title = "Informacion", message = acerca)
+
+
 ######################## Metodos CRUD #####################
 
 def crear():
@@ -135,7 +137,7 @@ def borrar():
     limpiarCampos()
     mostrar()
 
-################################### Colocar widgets en la ventana ###############################
+################################### Widgets de la ventana ###############################
 
 #################### Creacion de los menues ###################
 
